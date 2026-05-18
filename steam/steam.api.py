@@ -1,1 +1,1 @@
-def nota_steam(appid):
+buscar_jogo()
