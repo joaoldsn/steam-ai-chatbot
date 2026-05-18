@@ -305,22 +305,6 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Configuração da API
-
-Crie um arquivo `.env`:
-
-```env
-GROQ_API_KEY=sua-chave
-```
-
-Ou configure diretamente:
-
-```python
-os.environ["GROQ_API_KEY"] = "sua-chave"
-```
-
----
-
 # ▶️ Executando o Projeto
 
 ```bash
