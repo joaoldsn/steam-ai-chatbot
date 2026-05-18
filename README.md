@@ -82,40 +82,6 @@ Resposta contextualizada
 
 ---
 
-# 📂 Estrutura do Projeto
-
-```txt
-gamegpt-ai-chatbot/
-├── src/
-│   ├── chatbot/
-│   │   ├── chain.py
-│   │   ├── memory.py
-│   │   └── persona.py
-│   │
-│   ├── steam/
-│   │   ├── steam_api.py
-│   │   ├── reviews.py
-│   │   └── recommendations.py
-│   │
-│   ├── ui/
-│   │   └── menu.py
-│   │
-│   ├── config/
-│   │   └── settings.py
-│   
-│   
-│   
-│   
-│   
-│
-├── docs/
-├── tests/
-├── assets/
-├── README.md
-├── requirements.txt
-├── .env.example
-└── LICENSE
-```
 
 ---
 
