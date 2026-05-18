@@ -102,11 +102,11 @@ gamegpt-ai-chatbot/
 │   │
 │   ├── config/
 │   │   └── settings.py
-│   │
-│   ├── utils/
-│   │   └── filters.py
-│   │
-│   └── main.py
+│   
+│   
+│   
+│   
+│   
 │
 ├── docs/
 ├── tests/
