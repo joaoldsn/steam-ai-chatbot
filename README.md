@@ -1,4 +1,4 @@
-# GameGPT — Chatbot Inteligente sobre Jogos da Steam
+# GameGPT — Chatbot Especialista em Jogos da Steam
 
 ---
 
