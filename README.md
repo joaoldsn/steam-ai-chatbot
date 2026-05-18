@@ -167,6 +167,60 @@ gamegpt-ai-chatbot/
 
 ---
 
+# 🔑 Configuração da API Groq
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+GROQ_API_KEY=sua-chave-aqui
+```
+
+---
+
+## Instale a dependência
+
+```bash
+pip install python-dotenv
+```
+
+---
+
+## Carregue a variável ambiente no projeto
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("GROQ_API_KEY")
+```
+
+---
+
+## Configuração do modelo
+
+```python
+from langchain_groq import ChatGroq
+
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile"
+)
+```
+
+---
+
+## ⚠️ Importante
+
+Nunca publique sua chave da API no GitHub.
+
+Adicione `.env` no arquivo `.gitignore`:
+
+```txt
+.env
+```
+---
+
 # 💬 Exemplos de Perguntas
 
 ```txt
